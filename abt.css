@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Kalam');
+*{margin:0;padding:0}
+body{
+	background-color:Moccasin;
+}
+#wrapper
+{
+	width:960px;
+	margin:20px auto;
+}
+#header{
+	
+	padding:25px; 
+	border-bottom: 5px solid #330000;
+}
+#header h2{
+	font-family:Courgette;
+	color:#660000;
+	font-size: 34px;
+	margin-left: 300px;
+}
+
+#header p{font-family: kalam;
+		color:#330000;
+		padding-top: 20px;
+		text-align: center;
+	}
+
+
+
+#menu{
+	padding:0;
+	list-style-type:none;
+	width:960px;
+	background:#4c0105;
+	border-bottom:5px solid #330000;
+	min-height:45px;
+	margin:0 auto;
+
+}
+#menu li{
+	float:left;
+	border-right:1px solid #330000;
+	border-left:1px solid #330000;
+	position:relative;
+	
+	
+}
+#menu ul{
+
+}
+
+#menu li:last-child{
+	border-right:none;
+}
+#menu li:first-child{
+	border-left:none;
+
+
+}
+#menu li a{
+	color:#fff;
+	text-decoration:none;
+	background:#4c0105;
+	padding:10px 47px;
+	display:block;
+	transition:0.3s all ease;
+	font-family: kalam;
+}
+#menu li a:hover{
+	background:#dd6369;
+	color:#4c0105;
+	transition: 0.3s;
+}
+#menu li ul{
+	list-style-type:none;
+	padding:0;
+	position:absolute;
+	left:-99990px;
+}
+#menu li:hover ul{
+	left:0;
+
+}
+#menu li ul li{
+	float:none;}
+
+.slideit img{
+width: 960px;
+vertical-align: middle;
+height: 450px;
+
+}
+#content_wrapper{
+background-color:#F9CE9B;
+
+padding: 10px;
+overflow: hidden;
+font-family: kalam;
+color:#330000;
+}
+#content{
+width:600px;
+margin-right: 20px;
+float: left;
+
+}
+#content h1{
+	font-family:courgette;
+}
+.box{
+	border:5px solid #330000;
+}
+#content h1{
+	margin-bottom: 3px;
+	text-align: center;
+}
+#content p{
+	margin: 15px 5px;
+text-align: justify;
+margin-bottom:20px;
+
+}
+#content img{
+	margin: 0 auto;
+	display: block;
+	 border:3px solid black;
+	 
+	 width:230px;
+	 height:250px;
+	 float: left;
+	 margin-right: 20px;
+}
+#content a{
+	color:#830505;
+
+}
+#content a:hover{
+color:#995A0E;
+}
+#sidebar{
+	margin-left:20px;
+width: 200px;
+float: left;
+
+}
+#sidebar li{
+	
+}
+#sidebar li a{
+	text-decoration: none;
+	color:#330000;
+	display: block;
+	padding:2px;
+}
+#sidebar li a:hover{
+color:#995A0E;
+}
+#foot{
+	background-color:#330000;
+	padding: 5px;
+	color: white;
+	text-align: center;
+}
+
+

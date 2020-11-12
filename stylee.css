@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Kalam');
+*{margin:0;padding:0}
+body{
+	background-color:Moccasin;
+
+}
+#wrapper
+{
+	width:960px;
+	margin:20px auto;
+
+}
+.box{
+	border:5px solid #330000;
+}
+#header{
+	
+	padding:25px; 
+	border-bottom: 5px solid #330000;
+}
+#header h2{
+	font-family:Courgette;
+	color:#660000;
+	font-size: 34px;
+	margin-left: 300px;
+}
+
+#header p{font-family: kalam;
+		color:#330000;
+		padding-top: 20px;
+		text-align: center;
+	}
+
+
+
+#menu{
+	padding:0;
+	list-style-type:none;
+	width:960px;
+	background:#4c0105;
+	border-bottom:5px solid #330000;
+	min-height:45px;
+	margin:0 auto;
+}
+#menu li{
+	float:left;
+	border-right:1px solid #330000;
+	border-left:1px solid #330000;
+	position:relative;
+	
+}
+
+#menu li:last-child{
+	border-right:none;
+}
+#menu li:first-child{
+	border-left:none;
+}
+#menu li a{
+	color:#fff;
+	text-decoration:none;
+	background:#4c0105;
+	padding:10px 47px;
+	display:block;
+	transition:0.3s all ease;
+	font-family: kalam;
+}
+#menu li a:hover{
+	background:#dd6369;
+	color:#4c0105;
+	transition: 0.3s;
+}
+#menu li ul{
+	list-style-type:none;
+	padding:0;
+	position:absolute;
+	left:-99990px;
+}
+#menu li:hover ul{
+	left:0;
+
+}
+#menu li ul li{
+	float:none;}
+
+.slideit img{
+width: 952px;
+vertical-align: middle;
+height: 450px;
+
+}
+#content_wrapper{
+background-color:#F9CE9B;
+border-top:5px solid #330000;
+padding: 10px;
+overflow: hidden;
+font-family: kalam;
+color:#330000;
+}
+#content{
+width:620px;
+margin-right: 20px;
+float: left;
+}
+#content h2{
+	margin-bottom: 3px;
+}
+#content a{
+	color:#830505;
+
+}
+#content a:hover{
+color:#995A0E;
+}
+#sidebar{
+width: 200px;
+float: left;
+}
+#sidebar li{
+	
+}
+#sidebar li a{
+	text-decoration: none;
+	color:#330000;
+	display: block;
+	padding:2px;
+}
+#sidebar li a:hover{
+color:#995A0E;
+}
+#foot{
+	background-color:#330000;
+	padding: 5px;
+	color: white;
+	text-align: center;
+}
+.cook1 img{
+width:135px;
+height: 100px;
+background:#330000;
+border:2px solid white;
+padding:3px;
+margin-right:7px;
+float:left; 
+}
+.cook1 p{
+	text-align: justify;
+}
+.cook1{
+	margin-top: 5px;
+}
+#main-article h2{
+	margin-top: 18px;
+
+}
+#main-article{
+	margin-bottom:5px;
+	overflow: hidden;
+border-bottom: 1px solid #330000;	
+}
+#sidee{
+	border-bottom:1px solid #330000;
+	margin-bottom: 25px;
+}
+#sidee ul{
+	padding-left: 25px;
+}

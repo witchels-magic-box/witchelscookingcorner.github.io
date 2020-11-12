@@ -1,0 +1,17 @@
+*{margin:0; padding:0;}
+.full{
+	width: 100%;
+
+}
+.mid{
+	width: 960px;
+	display: block;
+	margin:0 auto;
+
+}
+.header-bg{
+	background: red;
+}
+.content-bg{
+	background: orange;
+}
